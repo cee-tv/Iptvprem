@@ -27,7 +27,124 @@ var playerInstance = jwplayer("jwplayerDiv");
       }
     });
   }
-  // Function to switch to DRM 2
+  // Function to switch to DRM 3
+  function switchToDRM3() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "1917f4caf2364e6d9b1507326a85ead6",
+          "key": "a1340a251a5aa63a9b0ea5d9d7f67595"
+        }
+      }
+    });
+  }
+// Function to switch to DRM 4
+  function switchToDRM3() {
+    playerInstance.setup({
+      file: "https://toxicify.pro/peace/hell/467.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "9710026a338e52a98db80416f743966b",
+          "key": "a40dfb5b1b058ac0cfbc3f9a771f9265"
+        }
+      }
+    });
+  }
+// Function to switch to DRM 5
+  function switchToDRM3() {
+    playerInstance.setup({
+      file: "https://toxicify.pro/peace/hell/467.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "9710026a338e52a98db80416f743966b",
+          "key": "a40dfb5b1b058ac0cfbc3f9a771f9265"
+        }
+      }
+    });
+  }
+// Function to switch to DRM 6
+  function switchToDRM3() {
+    playerInstance.setup({
+      file: "https://toxicify.pro/peace/hell/467.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "9710026a338e52a98db80416f743966b",
+          "key": "a40dfb5b1b058ac0cfbc3f9a771f9265"
+        }
+      }
+    });
+  }
+// Function to switch to DRM 7
+  function switchToDRM3() {
+    playerInstance.setup({
+      file: "https://toxicify.pro/peace/hell/467.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "9710026a338e52a98db80416f743966b",
+          "key": "a40dfb5b1b058ac0cfbc3f9a771f9265"
+        }
+      }
+    });
+  }
+// Function to switch to DRM 8
+  function switchToDRM3() {
+    playerInstance.setup({
+      file: "https://toxicify.pro/peace/hell/467.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "9710026a338e52a98db80416f743966b",
+          "key": "a40dfb5b1b058ac0cfbc3f9a771f9265"
+        }
+      }
+    });
+  }
+// Function to switch to DRM 9
+  function switchToDRM3() {
+    playerInstance.setup({
+      file: "https://toxicify.pro/peace/hell/467.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "9710026a338e52a98db80416f743966b",
+          "key": "a40dfb5b1b058ac0cfbc3f9a771f9265"
+        }
+      }
+    });
+  }
+// Function to switch to DRM 10
+  function switchToDRM3() {
+    playerInstance.setup({
+      file: "https://toxicify.pro/peace/hell/467.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "9710026a338e52a98db80416f743966b",
+          "key": "a40dfb5b1b058ac0cfbc3f9a771f9265"
+        }
+      }
+    });
+  }
+// Function to switch to DRM 11
+  function switchToDRM3() {
+    playerInstance.setup({
+      file: "https://toxicify.pro/peace/hell/467.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "9710026a338e52a98db80416f743966b",
+          "key": "a40dfb5b1b058ac0cfbc3f9a771f9265"
+        }
+      }
+    });
+  }
+// Function to switch to DRM 12
   function switchToDRM3() {
     playerInstance.setup({
       file: "https://toxicify.pro/peace/hell/467.mpd",
