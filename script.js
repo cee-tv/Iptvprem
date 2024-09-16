@@ -17,12 +17,12 @@ var playerInstance = jwplayer("jwplayerDiv");
   // Function to switch to DRM 2
   function switchToDRM2() {
     playerInstance.setup({
-      file: "https://toxicify.pro/peace/hell/231.mpd",
+      file: "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd",
       type: "dash",
       drm: {
         "clearkey": {
-          "keyId": "d0d980749a885c21867103bae265e785",
-          "key": "b352b6d01af7df9b8d904065268e9291"
+          "keyId": "2615129ef2c846a9bbd43a641c7303ef",
+          "key": "07c7f996b1734ea288641a68e1cfdc4d"
         }
       }
     });
