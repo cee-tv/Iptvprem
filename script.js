@@ -31,7 +31,7 @@ var playerInstance = jwplayer("jwplayerDiv");
   function switchToDRM3() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd",
-      type: "dash",
+      type: "mpd",
       drm: {
         "clearkey": {
           "keyId": "1917f4caf2364e6d9b1507326a85ead6",
@@ -44,7 +44,7 @@ var playerInstance = jwplayer("jwplayerDiv");
   function switchToDRM4() {
     playerInstance.setup({
       file: "https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/truefm_tv.mpd",
-      type: "dash",
+      type: "mpd",
       drm: {
         "clearkey": {
           "keyId": "40d8bb2a46ffd03540e0c6210ece57ce",
