@@ -41,20 +41,20 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 // Function to switch to DRM 4
-  function switchToDRM3() {
+  function switchToDRM4() {
     playerInstance.setup({
-      file: "https://toxicify.pro/peace/hell/467.mpd",
+      file: "https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/truefm_tv.mpd",
       type: "dash",
       drm: {
         "clearkey": {
-          "keyId": "9710026a338e52a98db80416f743966b",
-          "key": "a40dfb5b1b058ac0cfbc3f9a771f9265"
+          "keyId": "0559c95496d44fadb94105b9176c3579",
+          "key": "40d8bb2a46ffd03540e0c6210ece57ce"
         }
       }
     });
   }
 // Function to switch to DRM 5
-  function switchToDRM3() {
+  function switchToDRM5() {
     playerInstance.setup({
       file: "https://toxicify.pro/peace/hell/467.mpd",
       type: "dash",
@@ -67,7 +67,7 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 // Function to switch to DRM 6
-  function switchToDRM3() {
+  function switchToDRM6() {
     playerInstance.setup({
       file: "https://toxicify.pro/peace/hell/467.mpd",
       type: "dash",
@@ -80,7 +80,7 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 // Function to switch to DRM 7
-  function switchToDRM3() {
+  function switchToDRM7() {
     playerInstance.setup({
       file: "https://toxicify.pro/peace/hell/467.mpd",
       type: "dash",
@@ -93,7 +93,7 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 // Function to switch to DRM 8
-  function switchToDRM3() {
+  function switchToDRM8() {
     playerInstance.setup({
       file: "https://toxicify.pro/peace/hell/467.mpd",
       type: "dash",
@@ -106,7 +106,7 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 // Function to switch to DRM 9
-  function switchToDRM3() {
+  function switchToDRM9() {
     playerInstance.setup({
       file: "https://toxicify.pro/peace/hell/467.mpd",
       type: "dash",
@@ -119,7 +119,7 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 // Function to switch to DRM 10
-  function switchToDRM3() {
+  function switchToDRM10() {
     playerInstance.setup({
       file: "https://toxicify.pro/peace/hell/467.mpd",
       type: "dash",
