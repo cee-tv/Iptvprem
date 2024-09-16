@@ -47,8 +47,8 @@ var playerInstance = jwplayer("jwplayerDiv");
       type: "dash",
       drm: {
         "clearkey": {
-          "keyId": "0559c95496d44fadb94105b9176c3579",
-          "key": "40d8bb2a46ffd03540e0c6210ece57ce"
+          "keyId": "40d8bb2a46ffd03540e0c6210ece57ce",
+          "key": "0559c95496d44fadb94105b9176c3579"
         }
       }
     });
