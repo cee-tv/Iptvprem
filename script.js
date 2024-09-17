@@ -30,12 +30,12 @@ var playerInstance = jwplayer("jwplayerDiv");
   // Function to switch to DRM 3
   function switchToDRM3() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd",
+      file: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd",
       type: "mpd",
       drm: {
         "clearkey": {
-          "keyId": "1917f4caf2364e6d9b1507326a85ead6",
-          "key": "a1340a251a5aa63a9b0ea5d9d7f67595"
+          "keyId": "07aa813bf2c147748046edd930f7736e",
+          "key": "3bd6688b8b44e96201e753224adfc8fb"
         }
       }
     });
